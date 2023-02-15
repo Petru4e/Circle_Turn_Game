@@ -7,6 +7,19 @@ public class BallRotation : MonoBehaviour
 
     void FixedUpdate()
     {
-        CenterCircle.transform.Rotate(0, 0, 150 * Time.deltaTime);
+        if(direction)
+        {
+            CenterCircle.transform.Rotate(0, 0, 150 * Time.deltaTime);
+        }
+        else
+        {
+            CenterCircle.transform.Rotate(0, 0, -150 * Time.deltaTime);
+        }
+       
+    }
+
+    public void ChangeDirection()
+    {
+        direction = !direction;
     }
 }
