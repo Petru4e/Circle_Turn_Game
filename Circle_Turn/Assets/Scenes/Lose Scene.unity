@@ -221,6 +221,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1777f883910ada044978711171ea5bd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
+  ScoreText: {fileID: 1493376095}
 --- !u!1 &1218215061
 GameObject:
   m_ObjectHideFlags: 0
@@ -511,7 +513,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You lost
+  m_Text: 0
 --- !u!222 &1493376096
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -580,18 +582,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 80
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 8
+    m_MaxSize: 80
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Again
 --- !u!222 &1637348585
 CanvasRenderer:
   m_ObjectHideFlags: 0

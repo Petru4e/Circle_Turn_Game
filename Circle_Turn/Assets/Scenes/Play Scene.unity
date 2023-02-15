@@ -376,6 +376,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   scoreText: {fileID: 1634300334}
+  bonusEffect: {fileID: 4647745988514965768, guid: c75a5d0bd8e451e41bac25bc915bcec5, type: 3}
 --- !u!58 &223251905
 CircleCollider2D:
   m_ObjectHideFlags: 0
