@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class BallScipts : MonoBehaviour
 {
@@ -17,8 +18,7 @@ public class BallScipts : MonoBehaviour
         }
         if (other.gameObject.tag == "Enemy")
         {
-            Destroy(other.gameObject);
-            score = 0;
+            SceneManager.LoadScene(2);
         }
     }
     void Update()
